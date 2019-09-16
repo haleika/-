@@ -1,0 +1,261 @@
+
+.wrap_main{
+	width: 100%;
+}
+.top_logo{
+	padding: 2% 12%;
+}
+.top_logo_img{
+	float: left;
+	background: url(../user/logo.png) no-repeat left bottom;
+	width: 155px;
+	height: 55px;
+}
+.top_logo_img img{
+	height: 100%;
+	width: 100%;
+}
+.top_logo_tip{
+	font-size: 12px;
+	float: right;
+	padding: 5px;
+	margin-top: 10px;
+	background: #ffefef;
+	border: 1px solid #ffc0cc;
+}
+.login_content{
+	background: url(../user/loginbg.png) no-repeat center center;
+	width: 100%;
+	height: 600px;
+}
+.wrap_login{
+	padding: 0 12%;
+}
+.login_user{
+	float: right;
+	background: rgba(255, 236, 235, 0.9);
+	margin-top: 8%;
+	width: 36%;
+	min-width: 400px;
+	position: relative;
+}
+.toggle_login{
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 46px;
+	height: 46px;
+	background: url(../user/toggle.png) no-repeat;
+}
+.moddle_tab .mod{
+	width: 50%;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+.moddle_tab .mod a{
+	height: 43px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3c3c3c;
+   
+}
+.moddle_tab .mod .tg_btn{
+	display: block;
+    width: 119px;
+    margin: 10px auto 0;
+}
+.moddle_tab .mod.tg_on a{
+	color: #fe617a;
+    height: 41px;
+    border-bottom: 2px solid #ff4066;
+}
+.login_form .lg_text{
+	background: url(../user/pic.png) 12px no-repeat #fffff8;
+    border: 1px solid #ffd797;
+    height: 25px;
+    line-height: 25px;
+    color: #ff1877;
+    width: 72%;
+    padding-left: 42px;
+    margin-bottom: 15px;
+    font-size: 13px;
+    display: none;
+}
+.login_form{
+	padding: 10px 0 10px 50px;
+}
+.base_inp{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.base_inp input{
+	border: 1px solid #ccc;
+	outline-style: none;
+	height: 40px;
+	padding: 0 6px;
+}
+.login_inp input{
+	width: 81%;
+}
+.login_btn input{
+	display: inline;
+    float: left;
+    border: none;
+    width: 85%;
+    height: 40px;
+    background: #ff5777;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #fff;
+    outline-style: none;
+}
+.login_link{
+	margin-top: 20px;
+}
+.link_btn a{
+	padding-top: 6px;
+	margin-right: 5%;
+	font-size: 13px;
+}
+.link_btn a img{
+	vertical-align: top;
+}
+.login_reg{
+	padding-top: 20px;
+    padding-right: 44px;
+    padding-bottom: 20px;
+    text-align: right;
+    font-size: 13px;
+}
+
+.base_inp .con_select{
+	float: left;
+    width: 32%;
+    height: 40px;
+    margin-right: 10px;
+    line-height: 1.5;
+    border: 1px solid #c4c4c4;
+    border-radius: 0;
+    color: #333;
+    font-size: 14px;
+    padding: 4px 35px 4px 16px;
+    padding-right: 4px;
+    background: url(../user/xl.png) 100% no-repeat #fff;
+    outline: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ffedeb;
+}
+.base_inp a{
+	display: inline-block;
+    width: 32%;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    margin-right: 5px;
+    font-size: 13px;
+    color: #fff;
+    background-color: #ff5777;
+}
+.login_phone .base_inp input{
+	width: 46%;
+}
+.login_phone{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+/* 尾部 开始 */
+.footer{
+	width: 100%;
+	margin-top: 15px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background: #fff;
+}
+.foot_credit{
+	border-bottom: 2px solid #FF5777;
+	width: 100%;
+    height: 100px;
+    text-align: center;
+}
+.foot_credit_mod{
+	float: left;
+	height: 100px;
+	width: 25%;
+}
+.mod_box{
+	padding-left: 20px;
+	width: 78%;
+}
+.foot_credit .mod_box h4{
+	font-size: 14px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.foot_credit .mod_box ul li{
+	float: left;
+    display: inline-block;
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
+.foot_credit .mod_box ul{
+	margin-left: 50px;
+}
+.foot_otherlink{
+	margin-bottom: 8px;
+    line-height: 27px;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.foot_otherlink ul li{
+	float: left;
+	font-size: 12px;
+}
+.foot_otherlink ul li a{
+	display: inline-block;
+	padding: 0 10px;
+}
+.foot_mginfo{
+	margin-top: 10px;
+	width: 1000px;
+	height: 30px;
+}
+.foot_mginfo span{
+	float: left;
+	font-size: 12px;
+	color: #999;
+}
+.foot_mginfo ul li{
+	float: left;
+	padding-right: 20px;
+	font-size: 12px;
+}
+.foot_copy{
+	font-size: 13px;
+	height: 20px;
+	line-height: 20px;
+}
+.foot_copy span{
+	color: #999;
+}
+.foot_copy b{
+	color: #999;
+}
+
+

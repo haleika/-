@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>商品内页</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fonts/iconfont.css">
+	<link rel="stylesheet" href="css/product.css">
+	<script src="js/jquery-1.11.1.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/ajax.js"></script>
+	<script src="js/product.js"></script>
+</head>
+<body>
+	
+	<!-- 顶部导航搜索栏 开始  -->
+	<div class="wrap_topbar">
+		<div class="topbar clearfix">
+			<div class="top_nav w">
+				<div class="left_nav fl">
+					<a href="#">
+						<i class="iconfont icon-locationfill"></i>
+						<span>送货地址：</span>
+						<em>广州市</em>
+					</a>
+				</div>
+				<div class="right_nav fr">
+					<ul>
+						<li>
+							<span class="hb_hi">Hi,请</span>
+							<a href="login.html" class="hb_link">登录</a>
+							<a href="registered.html">注册</a>
+						</li>
+						<li>
+							<div class="hb_menu">
+								<a href="#" class="order">
+									我的订单
+								</a>
+							</div>
+						</li>
+						<li class="menu_li">
+							<div class="hb_menu">
+								<i class="iconfont icon-phone fl"></i>
+								<a href="#">充值中心</a>
+								<i class="hb_font iconfont icon-iconfontarrow01up"></i>
+							</div>
+							<div class="hb_menu_list list_phone">
+								<a href="#">话费充值</a>
+								<a href="#">流量充值</a>
+							</div>
+						</li>
+						<li class="menu_li">
+							<div class="hb_menu">
+								<a href="#">客户服务</a>
+								<i class="hb_font iconfont icon-iconfontarrow01up"></i>
+							</div>
+							<div class="hb_menu_list">
+								<a href="#">消费者服务</a>
+								<a href="#">商家服务</a>
+								<a href="#">规则中心</a>
+							</div>
+						</li>
+						<li class="menu_li">
+							<div class="hb_menu">
+								<a href="#">网站导航</a>
+								<i class="hb_font iconfont icon-iconfontarrow01up"></i>
+							</div>
+							<div class="hb_menu_list">
+								<a href="#">蘑菇首页</a>
+								<a href="#">蘑菇社区</a>
+								<a href="#">蘑菇小店</a>
+								<a href="#">招商通到</a>
+								<a href="#">企业采购</a>
+								<a href="#">蘑菇中心</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 顶部导航 -->
+		</div>
+			<div class="search w clearfix">
+				<div class="mg_logo fl">
+					<a href="#">
+						<img src="img/mg_logo.png" alt="">
+					</a>
+				</div>
+				<div class="shop_cart pro_search">
+					<div class="cart">
+						<a href="#">
+							搜本店
+						</a>
+					</div>
+				</div>
+				<!-- 购物车 -->
+				<div class="search_box fr">
+					<div class="search_content">
+						<div class="selectbox">
+							<span>搜商品</span>
+							<ol>
+								<li>
+									<a href="#">
+										商品
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										店铺
+									</a>
+								</li>
+							</ol>
+						</div>
+						<div class="searchbar">
+							<input type="text" class="search_text" placeholder="请输入关键字">
+							<input type="button" class="search_btn" value="搜索">
+						</div>
+						<div class="search_history">
+							<div class="history">
+								<h3>历史记录</h3>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 搜索条 -->
+			
+			</div>		
+	</div>
+	<!-- 顶部导航搜索栏 结束  -->
+		
+		<div class="pro_topnav clearfix">
+			<div class="wrap_pronav">
+				<div class="nav_con">
+					<ul>
+						<li>
+							<a href="index.html">
+								首页
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								全部商品
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								8月早秋新品
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								7月份新品
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								最新NI套装
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								牛仔裤
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								衬衫
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								T恤
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="wrap_product clearfix">
+			<div class="main_goods clearfix">
+
+				<!-- 图片展示 -->
+				<div class="goods_topimg fl clearfix">
+					<div class="big_box">
+						<img src="goods/big_01.jpg" alt="">
+						<div class="small_box"></div>
+					</div>
+					<div class="small_img">
+						<div class="wrap_list">
+							<div class="list_box">
+								<ul>
+									<li class="c">
+										<img src="goods/small_1.jpg" alt="">
+										<i></i>
+									</li>
+									<li>
+										<img src="goods/small_2.jpg" alt="">
+										<i></i>
+									</li>
+									<li>
+										<img src="goods/small_3.jpg" alt="">
+										<i></i>
+									</li>
+									<li>
+										<img src="goods/small_4.jpg" alt="">
+										<i></i>
+									</li>
+									<li>
+										<img src="goods/small_5.jpg" alt="">
+										<i></i>
+									</li>
+									<li>
+										<img src="goods/xu_1.jpg" alt="">
+										<i></i>
+									</li>
+									<li>
+										<img src="goods/small_6.jpg" alt="">
+										<i></i>
+									</li>
+								</ul>
+							</div>
+							<a href="javascript:;" class="boxbtn_l"></a>
+							<a href="javascript:;" class="boxbtn_r"></a>
+						</div>
+					</div>
+					<div class="max_box">
+						<img src="goods/big_01.jpg" alt="">
+					</div>
+				</div>
+
+				<!-- 商品信息 -->
+				<div class="goods_info fl">
+					<div class="info_box">
+						<h3 class="goods_title">秋季新品韩版学院简约字母提花百搭宽松套头粗线长袖毛衣针织衫女</h3>
+						<div class="goods_price">
+							<div class="pic_info">
+								价格：
+								<span>¥92.86</span>
+							</div>
+							<div class="pic_grounp clearfix">
+								<div class="pic_fl fl">
+									团购价：
+									<span>¥46.43</span>
+								</div>
+								<div class="pic_fr fr">
+									<span>
+										评价：
+										<a href="#">43</a>
+									</span>
+									<span>
+										累计销量:
+										<a href="#">290</a>
+									</span>
+								</div>
+							</div>
+							<div class="wrap_promotions">
+								<div class="promotions_box clearfix">
+									<div class="promotions_title fl">
+										店铺优惠：
+									</div>
+									<div class="clearfix content">
+										<div class="promotions_con">
+											<div class="promotions_list">
+												<div class="promotions-card fl">
+													<span>满259元立减25元</span>
+													<span>领取</span>
+												</div>
+												<div class="promotions-card fl">
+													<span>满299元立减30元</span>
+													<span>领取</span>
+												</div>
+											</div>
+											<div class="promotions_more fr">
+												更多优惠
+												<span></span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="goods_contact clearfix">
+							<div class="contact_name fl">
+								客服：
+							</div>
+							<div class="contact_img fl"></div>
+						</div>
+						<div class="goods_choice clearfix">
+							<div class="choice_con">
+								<div class="con_box clearfix">
+									<span>颜色：</span>
+									<ul>
+										<li>
+											<img src="goods/xu_1.jpg" alt="">
+											<b></b>
+										</li>
+										<li>
+											<img src="goods/xu_2.jpg" alt="">
+											<b></b>
+										</li>
+									</ul>
+								</div>
+								<div class="con_size clearfix">
+									<span>尺码：</span>
+									<div class="size">
+										均码
+										<b></b>
+									</div>
+								</div>
+								<div class="con_number clearfix">
+									<span class="number_tit">数量：</span>
+									<div class="goods_inp">
+										<span class="number_l"></span>
+										<input type="text" value="1">
+										<span class="number_r"></span>
+									</div>
+									<div class="goods_num">库存<em>20</em>件</div>
+									<div class="goods_tip">您所填写的商品数量超过库存！</div>
+								</div>
+							</div>
+							<div class="goods_buy">
+								<a href="javascript:;" class="buy_l">立即购买</a>
+								<a href="javascript:;" class="buy_r">加入购物车</a>
+							</div>
+						</div>
+						<div class="goods-social clearfix">
+							<div class="fav item">
+								<b></b>
+								<span>1480</span>
+							</div>
+							<div class="share item">
+								<b></b>
+								<span>分享</span>
+							</div>
+							<div class="ft">
+								<a href="#">举报</a>
+							</div>
+						</div>
+						<div class="goods_extra clearfix">
+							<div class="extra-services clearfix">
+								<div class="services_label fl">服务承诺：</div>
+								<ul class="services_list fl">
+									<li>
+										<span>
+											<img src="user/tui.png" alt="">
+											退货补运费
+										</span>
+									</li>
+									<li>
+										<span>
+											<img src="user/you.png" alt="">
+											全国包邮
+										</span>
+									</li>
+									<li>
+										<span>
+											<img src="user/7.png" alt="">
+											7天无理由退货
+										</span>
+									</li>
+									<li>
+										<span>
+											<img src="user/72.png" alt="">
+											 72小时发货
+										</span>
+									</li>
+								</ul>
+							</div>
+							<div class="extra-pay">
+								<div class="services_label fl">支付方式：</div>
+								<div class="pay_img fl"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-slide">
+				<div class="goods-recommend">
+					<p>热卖推荐</p>
+					<div class="slide_list">
+						<div class="slide_box">
+							<ul>
+								<li>
+									<a href="#">
+										<img src="goods/slide_01.jpg" alt="">
+									</a>
+										<p>￥55.62</p>
+								</li>
+								<li>
+									<a href="#">
+										<img src="goods/slide_01.jpg" alt="">
+									</a>
+									<p>￥55.62</p>
+								</li>
+								<li>
+									<a href="#">
+										<img src="goods/slide_01.jpg" alt="">
+									</a>
+								    <p>￥55.62</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+
+		<!-- 商品详细 开始-->
+		<div class="detail_content w clearfix">
+			<div class="col_main">
+				<div class="module_box">
+					<div class="tabbar-box">
+						<ul>
+							<li>
+								<a href="#">商品详情</a>
+							</li>
+							<li>
+								<a href="#">累计评价</a>
+								<em>53</em>
+							</li>
+							<li>
+								<a href="#">本店同类商品</a>
+							</li>
+							<li class="module_cart">
+								<div class="cart_info">
+									<div class="cart_hd">
+										<span>
+											<i></i>
+											加入购物车
+										</span>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="top_box"></div>
+					<div class="panel_box">
+						<div class="module_panel mod_graphic">
+							<div class="graphic_desc">
+								<div class="panel_title"> 
+									<h1>商品描述</h1> 
+								</div>
+								<div class="graphic_text">
+									温暖的毛衣在秋天是特别受妹子们欢迎的 这款毛衣的胸前印花设计简直不要太爱~ 百搭款各种好搭配，采用质感棒棒哒~ 加厚加厚的，多色可选哟~特别百搭
+								</div>
+							</div>
+							<div class="graphic_info">
+								<div class="panel_title">
+								 	<h1>产品参数</h1> 
+								 </div>
+								 <div class="graphic_block">
+								 	<table class="parameter_table">
+								 		<tbody>
+								 			<tr>
+								 				<td>图案: 字母/文字/数字</td>
+								 				<td>厚薄: 加厚</td>
+								 				<td>颜色: 粉色,黄色</td>
+								 			</tr>
+								 			<tr>
+								 				<td>袖型: 常规袖</td>
+								 				<td>衣门襟: 套头</td>
+								 				<td>尺码: 均码</td>
+								 			</tr>
+								 			<tr>
+								 				<td>衣长: 常规款（51-65cm</td>
+								 				<td>版型: 宽松</td>
+								 				<td>下摆: 敞口</td>
+								 			</tr>
+								 			<tr>
+								 				<td>季节: 秋季</td>
+								 				<td>材质: 针织</td>
+								 				<td>领型: 圆领</td>
+								 			</tr>
+								 			<tr>
+								 				<td>元素: 开叉,柔软洗</td>
+								 				<td>袖长: 长袖</td>
+								 				<td>风格: 简约</td>
+								 			</tr>
+								 			<tr>
+								 				<td>潮流: 韩系</td>
+								 			</tr>
+								 		</tbody>
+								 	</table>
+								 </div>
+							</div>
+							<div class="graphic_block">
+								<div class="block_box">
+									<div class="panel_title">
+										<h1>穿着效果</h1>
+									</div>
+									<div class="graphic_text">
+										实拍认证店铺【美依家】，图片与实物一致，菇凉们放心选购！
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_01.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_02.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_03.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_04.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_05.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_06.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_07.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_08.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_09.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_10.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_11.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_12.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_13.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_14.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_15.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_16.jpg" alt="">
+										</div>
+									</div>
+								</div>
+
+								<div class="block_box">
+									<div class="panel_title">
+										<h1>整体款式</h1>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_17.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_18.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_19.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_20.jpg" alt="">
+										</div>
+									</div>
+								</div>
+
+								<div class="block_box">
+									<div class="panel_title">
+										<h1>细节做工</h1>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_21.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_22.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_23.jpg" alt="">
+										</div>
+									</div>
+									<div class="graphic_pic">
+										<div class="wrap_box">
+											<img src="goods/goods_info_24.jpg" alt="">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="module_panel"></div>
+						<div class="module_panel"></div> -->
+					</div>
+				</div>
+			</div>
+			<div class="col_sidebar">
+				<div class="module_shop">
+					<div class="wp_box">
+						<h3 class="wp_hd">
+							<a href="#" class="text">
+								美依家    
+							</a>
+						</h3>
+						<div class="slide_top"></div>
+						<div class="wp_bd">
+							<div class="shop_evaluate">
+								<ul>
+									<li>
+										<p class="txet">描述</p>
+										<p class="txt_num">4.68</p>
+									</li>
+									<li>
+										<p class="txet">质量</p>
+										<p class="txt_num">4.67</p>
+									</li>
+									<li>
+										<p class="txet">服务</p>
+										<p class="txt_num">4.75</p>
+									</li>
+								</ul>
+							</div>
+							<div class="shop_btns">
+								<a href="#">收藏店铺</a>
+								<a href="#">进入店铺</a>
+							</div>
+							<div class="shop_provide">
+								<i class="line"></i>
+								<i class="arrow"></i>
+								<a href="" class="pic">
+									<img src="user/dian.png" alt="">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="module_classify">
+					<div class="wp_box">
+						<h3 class="wp_hd">本店分类</h3>
+						<div class="wp_bd">
+							<ul class="classify_list">
+								<li><a href="#">全部商品</a></li>
+								<li class="category-link"><a href="#">牛仔裤</a></li>
+								<li class="category-link"><a href="#">连衣裙</a></li>
+								<li class="category-link"><a href="#">毛呢外套</a></li>
+								<li class="category-link"><a href="#">T恤</a></li>
+								<li class="category-link"><a href="#">衬衫</a></li>
+								<li class="category-link"><a href="#">最IN套装</a></li>
+								<li class="category-link"><a href="#">外套开衫</a></li>
+								<li class="category-link"><a href="#">毛衣/针织衫</a></li>
+								<li class="category-link"><a href="#">TO卫衣</a></li>
+								<li class="category-link"><a href="#">显瘦半身裙系列</a></li>
+								<li class="category-link"><a href="#">6月份新品</a></li>
+								<li class="category-link"><a href="#">7月份新品</a></li>
+								<li class="category-link"><a href="#">8月早秋新品</a></li>
+								<li class="category-link"><a href="#">爆款推荐</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="module_repeat">
+					<div class="wp_box">
+						<h3 class="wp_hd">看了又看</h3>
+						<div class="wp_bd">
+							<ul>
+								<li>
+									<a href="#">
+										<img src="goods/slide_03.jpg" alt="">
+									</a>
+									<a href="#">
+										【三色可选】秋冬新品 韩国原版麻花圆领加厚宽松毛衣针织衫
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="goods/slide_03.jpg" alt="">
+									</a>
+									<a href="#">
+										【三色可选】秋冬新品 韩国原版麻花圆领加厚宽松毛衣针织衫
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="goods/slide_03.jpg" alt="">
+									</a>
+									<a href="#">
+										【三色可选】秋冬新品 韩国原版麻花圆领加厚宽松毛衣针织衫
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="goods/slide_03.jpg" alt="">
+									</a>
+									<a href="#">
+										【三色可选】秋冬新品 韩国原版麻花圆领加厚宽松毛衣针织衫
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="goods/slide_03.jpg" alt="">
+									</a>
+									<a href="#">
+										【三色可选】秋冬新品 韩国原版麻花圆领加厚宽松毛衣针织衫
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="goods/slide_03.jpg" alt="">
+									</a>
+									<a href="#">
+										【三色可选】秋冬新品 韩国原版麻花圆领加厚宽松毛衣针织衫
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="goods/slide_03.jpg" alt="">
+									</a>
+									<a href="#">
+										【三色可选】秋冬新品 韩国原版麻花圆领加厚宽松毛衣针织衫
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="goods/slide_03.jpg" alt="">
+									</a>
+									<a href="#">
+										【三色可选】秋冬新品 韩国原版麻花圆领加厚宽松毛衣针织衫
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="goods/slide_03.jpg" alt="">
+									</a>
+									<a href="#">
+										【三色可选】秋冬新品 韩国原版麻花圆领加厚宽松毛衣针织衫
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="goods/slide_03.jpg" alt="">
+									</a>
+									<a href="#">
+										【三色可选】秋冬新品 韩国原版麻花圆领加厚宽松毛衣针织衫
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="goods/slide_03.jpg" alt="">
+									</a>
+									<a href="#">
+										【三色可选】秋冬新品 韩国原版麻花圆领加厚宽松毛衣针织衫
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="goods/slide_03.jpg" alt="">
+									</a>
+									<a href="#">
+										【三色可选】秋冬新品 韩国原版麻花圆领加厚宽松毛衣针织衫
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="goods/slide_03.jpg" alt="">
+									</a>
+									<a href="#">
+										【三色可选】秋冬新品 韩国原版麻花圆领加厚宽松毛衣针织衫
+									</a>
+								</li>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col_extra">
+				<i class="bor_line bor_r"></i>
+				<i class="bor_line bor_b"></i>
+				<i class="bor_line bor_l"></i>
+				<div class="qrcode">
+					<div class="qrcode_togger">手机扫码下单</div>
+					<div class="qrcode_pic">
+						<img src="goods/ma.png" alt="">
+					</div>
+					<i class="qrcode_mini"></i>
+					<i class="qrcode_arrow"></i>
+				</div>
+				<div class="module_extranav">
+					<div class="extranav_bd">
+						<ul class="extranav_list">
+							<li class="selected">
+								<a href="javascript:;">商品描述</a>
+							</li>
+							<li>
+								<a href="javascript:;">产品参数</a>
+							</li>
+							<li>
+								<a href="javascript:;">穿着效果</a>
+							</li>
+							<li>
+								<a href="javascript:;">整体款式</a>
+							</li>
+							<li>
+								<a href="javascript:;">细节做工</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 商品详细 结束-->
+
+		<!-- footer页尾 开始 -->
+		<div class="footer">
+			<div class="wrap_foot w">
+				<div class="foot_credit">
+					<div class="foot_credit_mod">
+						<div class="mod_box">
+							<h4>- 新手帮助 -</h4>
+							<ul>
+								<li>
+									<a href="#">
+										常见问题
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										自助服务
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										联系客服
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										意见反馈
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="foot_credit_mod">
+						<div class="mod_box">
+							<h4>- 权益保障 -</h4>
+							<ul>
+								<li>
+									<a href="#">
+										全国包邮
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										7天无理由退货
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										退货运费补贴
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										限时发货
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="foot_credit_mod">
+						<div class="mod_box">
+							<h4>- 支付方式 -</h4>
+							<ul>
+								<li>
+									<a href="#">
+										微信支付
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										支付宝
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										白付美支付
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										意见反馈
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="foot_credit_mod">
+						<div class="mod_box">
+							<h4>- 移动客户端下载 -</h4>
+							<ul>
+								<li>
+									<a href="#">
+										蘑菇街
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										美丽说
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										uni引力
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										意见反馈
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="foot_otherlink clearfix">
+						<ul>
+							<li><a href="#">美丽说</a>|</li>
+							<li><a href="#">蘑菇街游戏</a>|</li>
+							<li><a href="#">淘粉吧</a>|</li>
+							<li><a href="#">穿衣搭配</a>|</li>
+							<li><a href="#">秋季女装新款</a>|</li>
+							<li><a href="#">秋季连衣裙长袖</a>|</li>
+							<li><a href="#">秋季孕妇装</a>|</li>
+							<li><a href="#">QQ钱包</a>|</li>
+							<li><a href="#">时尚品牌网</a>|</li>
+							<li><a href="#">装修</a>|</li>
+							<li><a href="#">背带裤搭配</a>|</li>
+							<li><a href="#">衣联网</a>|</li>
+							<li><a href="#">播视网视频</a>|</li>
+							<li><a href="#">慧聪网</a>|</li>
+							<li><a href="#">衬衫搭配</a>|</li>
+							<li><a href="#">牛仔外套搭配图片</a>|</li>
+							<li><a href="#">冬装时尚搭配</a>|</li>
+							<li><a href="#">针织衫搭配</a>|</li>
+							<li><a href="#">牛仔衣搭配</a>|</li>
+							<li><a href="#">风衣搭配</a>|</li>
+							<li><a href="#">补水面膜排行榜</a>|</li>
+							<li><a href="#">爱蘑菇街</a>|</li>
+						</ul>
+				</div>
+				<div class="foot_mginfo">
+					<ul>
+						<li><a href="#">关于我们</a></li>
+						<li><a href="#">招聘信息</a></li>
+						<li><a href="#">联系我们</a></li>
+						<li><a href="#">商家入驻</a></li>
+						<li><a href="#">商家后台</a></li>
+						<li><a href="#">蘑菇商学院</a></li>
+						<li><a href="#">商家社区</a></li>
+					</ul>
+					<span>©2017 Mogujie.com 杭州卷瓜网络有限公司</span>
+				</div>
+				<div class="foot_copy">
+					<p>
+						<span>营业执照注册号：</span>
+						<a href="#">330106000129004</a>
+						<b> | </b>
+						<span>网络文化经营许可证：</span>
+						<a href="#">浙网文（2016）0349-219号</a>
+						<b> | </b>
+						<span>增值电信业务经营许可证：</span>
+						<a href="#">浙B2-20110349</a>
+						<b> | </b>
+						<a href="#">安全责任书</a>
+						<b> | </b>
+						<a href="#">浙公网安备 33010602002329号</a>
+						<b> | </b>
+
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- footer页尾 结束 -->
+
+
+		<!-- 固定侧边栏 开始 -->
+			<div class="wrap_sidebar">
+				<div class="sidebar_height"></div>
+				<div class="sidebar-item my_cart">
+					<a href="chop_cart.html">
+						<i class="side_con"></i>
+						<span class="side_txt">购物车</span>
+					</a>
+				</div>
+				<div class="sidebar-item my_coupon">
+					<a href="#">
+						<i class="side_con"></i>
+						<span class="side_txt">优惠券</span>
+					</a>
+				</div>
+				<div class="sidebar-item my_wallrt">
+					<a href="#">
+						<i class="side_con"></i>
+						<span class="side_txt">钱包</span>
+					</a>
+				</div>
+				<div class="sidebar-item my_browserlog">
+					<a href="#">
+						<i class="side_con"></i>
+						<span class="side_txt">足迹</span>
+					</a>
+				</div>
+				<div class="side_bottom">
+					<div class="sidebar-item ret_top">
+						<a href="javascript:;">
+							<i class="side_con"></i>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		<!-- 固定侧边栏 结束 -->
+
+
+</body>
+</html>

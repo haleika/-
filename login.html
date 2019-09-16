@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>登录</title>
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/login.css">
+        <script src="js/jquery-1.11.1.js"></script>
+        <script src="js/login.js"></script>
+    </head>
+    <body>
+		
+		<div class="wrap_main clearfix">
+			<div class="top_logo clearfix">
+				<a href="#" class="top_logo_img"></a>
+				<span class="top_logo_tip">依《网络安全法》相关要求，即日起蘑菇街会员登陆需绑定手机。为保障您的账户安全及正常使用，如您尚未绑定，请尽快完成绑定，感谢您的理解和支持!</span>
+			</div>
+
+			<div class="login_content">
+				<div class="wrap_login clearfix">
+					<div class="login_bg"></div>
+					<div class="login_user">
+						<div class="toggle_login"></div>
+						<div class="moddle_tab clearfix">
+							<div class="mod fl mod_r  tg_on">
+								<a href="javascript:;" class="tg_btn">
+									普通登入
+								</a>
+							</div>
+							<div class="mod fl mod_l">
+								<a href="javascript:;" class="tg_btn">
+									手机无密码登录
+								</a>
+							</div>
+						</div>
+						<div class="login_form">
+							<p class="lg_text">请输入用户名/邮箱/手机号</p>
+							<div class="lg_from">
+								<form action="post">
+									<!-- 普通密码登录 -->
+									<div class="login_inp">
+										<div class="base_inp login_inp">
+											<input type="text" placeholder="用户名/邮箱/手机号" id="text_inp">
+										</div>
+										<div class="base_inp login_inp">
+											<input type="password" placeholder="密码" id="pass_inp">
+										</div>
+									</div>
+									
+									<!-- 无密码手机验证 -->
+									<div class="login_phone">
+										<div class="base_inp">
+											<select class="con_select">
+												<option value="1">中国</option>
+												<option value="2">美国</option>
+												<option value="3">日本</option>
+												<option value="4">韩国</option>
+											</select>
+											<input type="text" placeholder="手机号码" id="phone_inp">
+										</div>
+										<div class="base_inp">
+											<a href="javascript:;">获取动态密码</a>
+											<input type="text" placeholder="动态密码">
+										</div>
+									</div>
+
+									<div class="login_btn clearfix">
+										<input type="button" value="登录">
+									</div>
+									<div class="login_link">
+										<div class="link_btn">
+											<a href="javascript:;" class="lg_qq">
+												<img src="user/qq.png" alt="">
+												QQ登录
+											</a>
+											<a href="javascript:;" class="lg_wechat">
+												<img src="user/wechat.png" alt="">
+												微信登录
+											</a>
+											<a href="registered.html">注册</a>
+										</div>
+									</div>
+									<div class="login_reg">
+										<a href="#">忘记密码</a>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+    	<!-- footer页尾 开始 -->
+    	<div class="footer">
+			<div class="wrap_foot w">
+				<div class="foot_credit">
+					<div class="foot_credit_mod">
+						<div class="mod_box">
+							<h4>- 新手帮助 -</h4>
+							<ul>
+								<li>
+									<a href="#">
+										常见问题
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										自助服务
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										联系客服
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										意见反馈
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="foot_credit_mod">
+						<div class="mod_box">
+							<h4>- 权益保障 -</h4>
+							<ul>
+								<li>
+									<a href="#">
+										全国包邮
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										7天无理由退货
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										退货运费补贴
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										限时发货
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="foot_credit_mod">
+						<div class="mod_box">
+							<h4>- 支付方式 -</h4>
+							<ul>
+								<li>
+									<a href="#">
+										微信支付
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										支付宝
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										白付美支付
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										意见反馈
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="foot_credit_mod">
+						<div class="mod_box">
+							<h4>- 移动客户端下载 -</h4>
+							<ul>
+								<li>
+									<a href="#">
+										蘑菇街
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										美丽说
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										uni引力
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										意见反馈
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="foot_mginfo">
+					<ul>
+						<li><a href="#">关于我们</a></li>
+						<li><a href="#">招聘信息</a></li>
+						<li><a href="#">联系我们</a></li>
+						<li><a href="#">商家入驻</a></li>
+						<li><a href="#">商家后台</a></li>
+						<li><a href="#">蘑菇商学院</a></li>
+						<li><a href="#">商家社区</a></li>
+					</ul>
+					<span>©2017 Mogujie.com 杭州卷瓜网络有限公司</span>
+				</div>
+				<div class="foot_copy">
+					<p>
+						<span>营业执照注册号：</span>
+						<a href="#">330106000129004</a>
+						<b> | </b>
+						<span>网络文化经营许可证：</span>
+						<a href="#">浙网文（2016）0349-219号</a>
+						<b> | </b>
+						<span>增值电信业务经营许可证：</span>
+						<a href="#">浙B2-20110349</a>
+						<b> | </b>
+						<a href="#">安全责任书</a>
+						<b> | </b>
+						<a href="#">浙公网安备 33010602002329号</a>
+						<b> | </b>
+
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- footer页尾 结束 -->
+    </body>
+</html>

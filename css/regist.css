@@ -1,0 +1,190 @@
+
+.regist{
+	position: relative;
+    border-bottom: 1px solid #f4f4f4;
+    background: #fcfcfc;
+    padding: 30px 0 40px;
+}
+.reg_content{
+	position: relative;
+    z-index: 150;
+    width: 330px;
+    margin: 0 auto;
+}
+.reg_title h3{
+	text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+    color: #333;
+}
+.regist_form ul li{
+	position: relative;
+    min-height: 52px;
+    margin-top: 10px;
+    margin-right: -200px;
+}
+.same_item{
+	position: relative;
+    z-index: 2;
+    width: 328px;
+    height: 50px;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+}
+.same_item input{
+	position: relative;
+    z-index: 2;
+    width: 288px;
+    height: 20px;
+    margin-top: 15px;
+    padding: 0 20px;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+}
+.same_label{
+	position: absolute;
+    left: 20px;
+    top: 0;
+    display: inline-block;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    color: #666;
+}
+.regist_tips{
+	opacity: 0;
+    position: absolute;
+    left: 348px;
+    top: 0;
+    font-size: 12px;
+    color: #fff;
+    transform: scale(0);
+    transition: All 0.5s cubic-bezier(.88,.32,.36,1.58);
+    transform-origin: left;
+}
+.ifocus .regist_tips{
+	opacity: 1;
+	transform: scale(1);
+}
+.regist_tips .regtip_rel{
+	padding: 10px;
+    background: #e4e4e4;
+}
+.regist_tips .regtip_rel i,.tips_keywords .regtip_rel i{
+	position: absolute;
+    left: -10px;
+    top: 50%;
+    z-index: 2;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    line-height: 0;
+    margin-top: -5px;
+    border-color: transparent #e4e4e4 transparent transparent;
+    border-style: dashed solid dashed dashed;
+    border-width: 5px;
+    font-size: 0;
+}
+.regist_tips_red .regtip_rel{
+    background: #fff4d7;
+}
+.regist_tips.regist_tips_red .regtip_rel i{
+    border-color: transparent #fff4d7 transparent transparent;
+}
+.tips_words{
+	max-width: 160px;
+    line-height: 20px;
+    color: #666;
+}
+.regist_right{
+	display: none;
+    position: absolute;
+    left: 348px;
+    top: 14px;
+    width: 23px;
+    height: 23px;
+    background: url(../goods/regist_new.png) no-repeat -50px 0;
+}
+.ishort_li .same_item{
+	width: 192px;
+	float: left;
+}
+.ishort_li .same_code_btn{
+	float: left;
+	position: relative;
+    z-index: 2;
+    width: 126px;
+    height: 50px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: #57565f;
+    line-height: 52px;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.ishort_li .same_code_btn:hover{
+	background-color: #878591;
+}
+.tips_keywords{
+	display: none;
+    position: absolute;
+    left: 348px;
+    top: 9px;
+    font-size: 12px;
+    color: #fff;
+}
+.tips_keywords .regtip_rel{
+    width: 120px;
+    padding: 10px;
+    background: #e4e4e4;
+}
+.tips_words_key{
+	height: 20px;
+	overflow: hidden;
+}
+.tips_words_key em{
+	float: left;
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: #fafafa;
+}
+.tips_words_key em.em_redA{
+	background: #fa592e;
+}
+.tips_words_key em.em_yellowA1{
+	background: #f6ba52;
+}
+.tips_words_key em.em_greenA1{
+	background: #78ce2e;
+}
+.agreement_word{
+	height: 35px;
+    font-size: 12px;
+    line-height: 35px;
+    color: #666;
+    text-indent: 1em;
+}
+.agreement_word a{
+	color: #ff3c3c;
+}
+a.agreement_btn{
+	display: block;
+    width: 330px;
+    height: 52px;
+    margin-top: 6px;
+    background-color: #ff3c3c;
+    font-size: 16px;
+    line-height: 52px;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+}

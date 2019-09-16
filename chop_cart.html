@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>购物车</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fonts/iconfont.css">
+	<link rel="stylesheet" href="css/shop_cart.css">
+	<script src="js/jquery-1.11.1.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/shop_cart.js"></script>
+</head>
+<body>
+	
+
+	
+	<!-- 顶部导航搜索栏 开始  -->
+	<div class="wrap_topbar">
+		<div class="topbar clearfix">
+			<div class="top_nav w">
+				<div class="left_nav fl">
+					<a href="#">
+						<i class="iconfont icon-locationfill"></i>
+						<span>送货地址：</span>
+						<em>广州市</em>
+					</a>
+				</div>
+				<div class="right_nav fr">
+					<ul>
+						<li>
+							<span class="hb_hi">Hi,请</span>
+							<a href="#" class="hb_link">登录</a>
+							<a href="#">注册</a>
+						</li>
+						<li>
+							<div class="hb_menu">
+								<a href="#" class="order">
+									我的订单
+								</a>
+							</div>
+						</li>
+						<li class="menu_li">
+							<div class="hb_menu">
+								<i class="iconfont icon-phone fl"></i>
+								<a href="#">充值中心</a>
+								<i class="hb_font iconfont icon-iconfontarrow01up"></i>
+							</div>
+							<div class="hb_menu_list list_phone">
+								<a href="#">话费充值</a>
+								<a href="#">流量充值</a>
+							</div>
+						</li>
+						<li class="menu_li">
+							<div class="hb_menu">
+								<a href="#">客户服务</a>
+								<i class="hb_font iconfont icon-iconfontarrow01up"></i>
+							</div>
+							<div class="hb_menu_list">
+								<a href="#">消费者服务</a>
+								<a href="#">商家服务</a>
+								<a href="#">规则中心</a>
+							</div>
+						</li>
+						<li class="menu_li">
+							<div class="hb_menu">
+								<a href="#">网站导航</a>
+								<i class="hb_font iconfont icon-iconfontarrow01up"></i>
+							</div>
+							<div class="hb_menu_list">
+								<a href="#">蘑菇首页</a>
+								<a href="#">蘑菇社区</a>
+								<a href="#">蘑菇小店</a>
+								<a href="#">招商通到</a>
+								<a href="#">企业采购</a>
+								<a href="#">蘑菇中心</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 顶部导航 -->
+		</div>
+	</div>
+	<!-- 顶部导航搜索栏 结束  -->
+		
+
+			<!-- 购物车 开始 -->
+		<div class="wrap_shop_cart clearfix">
+			<div class="cart_header clearfix">
+				<div class="header_in w clearfix">
+					<div class="process_bar">
+						<div class="process_wrap">
+							<div class="process_sd"></div>
+							<i class="process_i process_i1">
+								1
+								<span class="process_tip">购物车</span>
+							</i>
+							<i class="process_i process_i2">
+								2
+								<span class="process_tip">确认订单</span>
+							</i>
+							<i class="process_i process_i3">
+								3
+								<span class="process_tip">支付</span>
+							</i>
+							<i class="process_i process_i4">
+								4
+								<span class="process_tip">完成</span>
+							</i>
+						</div>
+					</div>
+					<div class="logo logo-cart"></div>
+				</div>
+			</div>
+			<div class="main_cart_content w">
+				<div class="cart_con">
+					<table class="cart_table">
+						<thead>
+							<tr>
+								<th class="cart_table_check_wrap cart_alleft">
+									<input type="checkbox" class="s_all tr_checkmr s_all_slave" id="s_all_h">
+									<label for="s_all_h">全选</label>
+								</th>
+								<th class="cart_table_goods_wrap"></th>
+								<th class="cart_table_goodsinfo_wrap">商品信息</th>
+								<th>单价(元)</th>
+								<th class="cart_table_goodsnum_wrap">数量</th>
+								<th class="cart_table_goodsnum_wrap">小计(元)</th>
+								<th class="cart_table_goodsctrl_wrap">操作</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="shop_tr">
+								<td class="cart_group_head" colspan="7">
+									<input type="checkbox" class="s_shopall tr_checkmr">
+									<a href="#" class="cart_bold">美依家</a>
+									<ul class="cart_tip_red">
+										<li>
+											<i></i>
+											满259元减25
+										</li>
+									</ul>
+									<div class="cart_tip_red cart_hidetip">
+										<div class="cart_tip_hd">
+											<span>优惠券</span>
+										</div>
+									</div>
+									<div class="cart_tip_red">
+										<a href="#">
+											去店铺凑单 >
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr class="cart_mitem">
+								<td class="cart_chec">
+									<input type="checkbox" class="cart_thcheck">
+								</td>
+								<td class="cart_table_goods_wrap">
+									<a href="#" class="cart_goods_img">
+										<img src="goods/cart.jpg" alt="">
+									</a>
+									<a href="#" class="cart_goods_t">
+										  秋装新品韩版糖果色喇叭袖镂空透视七分袖针织衫薄款毛衣罩衫上衣 
+									</a>
+								</td>
+								<td>
+									<p class="cart_ft">颜色：黄色</p>
+									<p class="cart_ft">尺码：均码</p>
+								</td>
+								<td class="cart_alcenter">
+									<p class="cart_ft cart_ft_s">78.58</p>
+									<p class="cart_ft cart_ft_p cart_pic">50.29</p>
+									<p class="cart_ft cart_red">
+										<span>活动价</span>
+									</p>
+								</td>
+								<td class="cart_alcenter">
+									<div>
+										<div class="cart_num cart_counter">
+											<input type="text" class="cart_num_input cart_bold" value="1">
+											<span class="cart_num_add"></span>
+											<span class="cart_num_reduce disable"></span>
+										</div>
+									</div>
+								</td>
+								<td class="cart_alcenter">
+									<p class="cart_red item_sum">50.29</p>
+								</td>
+								<td class="cart_alcenter">
+									<a href="#" class="del_tr">
+										删除
+									</a>
+								</td>
+							</tr>
+							<tr class="cart_mitem">
+								<td class="cart_chec">
+									<input type="checkbox" class="cart_thcheck">
+								</td>
+								<td class="cart_table_goods_wrap">
+									<a href="#" class="cart_goods_img">
+										<img src="goods/cart1.jpg" alt="">
+									</a>
+									<a href="#" class="cart_goods_t">
+										  秋装新款清新甜美V领交叉系带百搭喇叭袖针织衫空调衫毛衣上衣女
+									</a>
+								</td>
+								<td>
+									<p class="cart_ft">颜色：粉红色</p>
+									<p class="cart_ft">尺码：均码</p>
+								</td>
+								<td class="cart_alcenter">
+									<p class="cart_ft cart_ft_s">78.58</p>
+									<p class="cart_ft cart_ft_p cart_pic">39.29</p>
+									<p class="cart_ft cart_red">
+										<span>活动价</span>
+									</p>
+								</td>
+								<td class="cart_alcenter">
+									<div>
+										<div class="cart_num cart_counter">
+											<input type="text" class="cart_num_input cart_bold" value="1">
+											<span class="cart_num_add"></span>
+											<span class="cart_num_reduce disable"></span>
+										</div>
+									</div>
+								</td>
+								<td class="cart_alcenter">
+									<p class="cart_red item_sum">39.29</p>
+								</td>
+								<td class="cart_alcenter">
+									<a href="#" class="del_tr">
+										删除
+									</a>
+								</td>
+							</tr>
+						</tbody>
+						<tbody>
+							<tr class="shop_tr">
+								<td class="cart_group_head" colspan="7">
+									<input type="checkbox" class="s_shopall tr_checkmr">
+									<a href="#" class="cart_bold">蘑菇小胖</a>
+									<ul class="cart_tip_red">
+										<li>
+											<i></i>
+											满300元减49
+										</li>
+									</ul>
+									<div class="cart_tip_red cart_hidetip">
+										<div class="cart_tip_hd">
+											<span>优惠券</span>
+										</div>
+									</div>
+									<div class="cart_tip_red">
+										<a href="#">
+											去店铺凑单 >
+										</a>
+									</div>
+								</td>
+							</tr>
+							<tr class="cart_mitem">
+								<td class="cart_chec">
+									<input type="checkbox" class="cart_thcheck">
+								</td>
+								<td class="cart_table_goods_wrap">
+									<a href="#" class="cart_goods_img">
+										<img src="goods/cart2.jpg" alt="">
+									</a>
+									<a href="#" class="cart_goods_t">
+										  早秋新品宽松韩风镂空破洞条纹圆领长袖针织衫毛衣女
+									</a>
+								</td>
+								<td>
+									<p class="cart_ft">颜色：黄色</p>
+									<p class="cart_ft">尺码：均码</p>
+								</td>
+								<td class="cart_alcenter">
+									<p class="cart_ft cart_ft_s">85.00</p>
+									<p class="cart_ft cart_ft_p cart_pic">60.50</p>
+									<p class="cart_ft cart_red">
+										<span>活动价</span>
+									</p>
+								</td>
+								<td class="cart_alcenter">
+									<div>
+										<div class="cart_num cart_counter">
+											<input type="text" class="cart_num_input cart_bold" value="1">
+											<span class="cart_num_add"></span>
+											<span class="cart_num_reduce disable"></span>
+										</div>
+									</div>
+								</td>
+								<td class="cart_alcenter">
+									<p class="cart_red item_sum">60.50</p>
+								</td>
+								<td class="cart_alcenter">
+									<a href="#" class="del_tr">
+										删除
+									</a>
+								</td>
+							</tr>
+							<tr class="cart_mitem">
+								<td class="cart_chec">
+									<input type="checkbox" class="cart_thcheck">
+								</td>
+								<td class="cart_table_goods_wrap">
+									<a href="#" class="cart_goods_img">
+										<img src="goods/cart3.jpg" alt="">
+									</a>
+									<a href="#" class="cart_goods_t">
+										  秋冬装新款百搭休闲宽松打底毛衣条纹针织衫
+									</a>
+								</td>
+								<td>
+									<p class="cart_ft">颜色：粉红色</p>
+									<p class="cart_ft">尺码：均码</p>
+								</td>
+								<td class="cart_alcenter">
+									<p class="cart_ft cart_ft_s">85.00</p>
+									<p class="cart_ft cart_ft_p cart_pic">59.50</p>
+									<p class="cart_ft cart_red">
+										<span>活动价</span>
+									</p>
+								</td>
+								<td class="cart_alcenter">
+									<div>
+										<div class="cart_num cart_counter">
+											<input type="text" class="cart_num_input cart_bold" value="1">
+											<span class="cart_num_add"></span>
+											<span class="cart_num_reduce disable"></span>
+										</div>
+									</div>
+								</td>
+								<td class="cart_alcenter">
+									<p class="cart_red item_sum">59.50</p>
+								</td>
+								<td class="cart_alcenter">
+									<a href="#" class="del_tr">
+										删除
+									</a>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="cart_page">
+					<div class="cart_empty">
+						<div class="cart_empty_icon"></div>
+						<h5 class="empty_ft">
+							您的购物车还是空的，赶快去挑选商品吧！
+						</h5>
+						<ul class="cart_empty_list"> 
+							<li>
+								去看看大家都喜欢的
+								<a href="#" class="cart_red cart_uline">
+									潮流单品
+								</a>
+							</li> 
+							<li>
+								去看看正在折扣中的优品
+								<a href="#" class="cart_red cart_uline">
+									团购
+								</a>
+							</li> 
+						</ul>
+					</div>
+				</div>
+				<div class="cart_pay_wrap">
+					<a href="javascript:;" class="cart_paybtn_disable"></a>
+					<div class="cart_paybar_info_cost">
+						¥ <em>0.00</em>
+					</div>
+					<div class="cart_pregray">
+						共有
+						<span class="cart_red goodsNum">0</span>
+						 件商品，总计： 
+					</div>
+
+					<div class="cart_pay_box">
+						<input type="checkbox" class="chec_all s_all_slave">
+						<label>全选</label>
+						<a href="javascript:;" class="all_del">删除选中</a>
+						<a href="javascript:;">清空失效商品</a>
+						<a href="javascript:;">移入收藏夹</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 购物车 结束 -->
+
+
+	
+
+		<!-- footer页尾 开始 -->
+		<div class="footer">
+			<div class="wrap_foot w">
+				<div class="foot_credit">
+					<div class="foot_credit_mod">
+						<div class="mod_box">
+							<h4>- 新手帮助 -</h4>
+							<ul>
+								<li>
+									<a href="#">
+										常见问题
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										自助服务
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										联系客服
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										意见反馈
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="foot_credit_mod">
+						<div class="mod_box">
+							<h4>- 权益保障 -</h4>
+							<ul>
+								<li>
+									<a href="#">
+										全国包邮
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										7天无理由退货
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										退货运费补贴
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										限时发货
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="foot_credit_mod">
+						<div class="mod_box">
+							<h4>- 支付方式 -</h4>
+							<ul>
+								<li>
+									<a href="#">
+										微信支付
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										支付宝
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										白付美支付
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										意见反馈
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="foot_credit_mod">
+						<div class="mod_box">
+							<h4>- 移动客户端下载 -</h4>
+							<ul>
+								<li>
+									<a href="#">
+										蘑菇街
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										美丽说
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										uni引力
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										意见反馈
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="foot_otherlink clearfix">
+						<ul>
+							<li><a href="#">美丽说</a>|</li>
+							<li><a href="#">蘑菇街游戏</a>|</li>
+							<li><a href="#">淘粉吧</a>|</li>
+							<li><a href="#">穿衣搭配</a>|</li>
+							<li><a href="#">秋季女装新款</a>|</li>
+							<li><a href="#">秋季连衣裙长袖</a>|</li>
+							<li><a href="#">秋季孕妇装</a>|</li>
+							<li><a href="#">QQ钱包</a>|</li>
+							<li><a href="#">时尚品牌网</a>|</li>
+							<li><a href="#">装修</a>|</li>
+							<li><a href="#">背带裤搭配</a>|</li>
+							<li><a href="#">衣联网</a>|</li>
+							<li><a href="#">播视网视频</a>|</li>
+							<li><a href="#">慧聪网</a>|</li>
+							<li><a href="#">衬衫搭配</a>|</li>
+							<li><a href="#">牛仔外套搭配图片</a>|</li>
+							<li><a href="#">冬装时尚搭配</a>|</li>
+							<li><a href="#">针织衫搭配</a>|</li>
+							<li><a href="#">牛仔衣搭配</a>|</li>
+							<li><a href="#">风衣搭配</a>|</li>
+							<li><a href="#">补水面膜排行榜</a>|</li>
+							<li><a href="#">爱蘑菇街</a>|</li>
+						</ul>
+				</div>
+				<div class="foot_mginfo">
+					<ul>
+						<li><a href="#">关于我们</a></li>
+						<li><a href="#">招聘信息</a></li>
+						<li><a href="#">联系我们</a></li>
+						<li><a href="#">商家入驻</a></li>
+						<li><a href="#">商家后台</a></li>
+						<li><a href="#">蘑菇商学院</a></li>
+						<li><a href="#">商家社区</a></li>
+					</ul>
+					<span>©2017 Mogujie.com 杭州卷瓜网络有限公司</span>
+				</div>
+				<div class="foot_copy">
+					<p>
+						<span>营业执照注册号：</span>
+						<a href="#">330106000129004</a>
+						<b> | </b>
+						<span>网络文化经营许可证：</span>
+						<a href="#">浙网文（2016）0349-219号</a>
+						<b> | </b>
+						<span>增值电信业务经营许可证：</span>
+						<a href="#">浙B2-20110349</a>
+						<b> | </b>
+						<a href="#">安全责任书</a>
+						<b> | </b>
+						<a href="#">浙公网安备 33010602002329号</a>
+						<b> | </b>
+
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- footer页尾 结束 -->
+
+
+		<!-- 固定侧边栏 开始 -->
+			<div class="wrap_sidebar">
+				<div class="sidebar_height"></div>
+				<div class="sidebar-item my_cart">
+					<a href="#">
+						<i class="side_con"></i>
+						<span class="side_txt">购物车</span>
+					</a>
+				</div>
+				<div class="sidebar-item my_coupon">
+					<a href="#">
+						<i class="side_con"></i>
+						<span class="side_txt">优惠券</span>
+					</a>
+				</div>
+				<div class="sidebar-item my_wallrt">
+					<a href="#">
+						<i class="side_con"></i>
+						<span class="side_txt">钱包</span>
+					</a>
+				</div>
+				<div class="sidebar-item my_browserlog">
+					<a href="#">
+						<i class="side_con"></i>
+						<span class="side_txt">足迹</span>
+					</a>
+				</div>
+				<div class="side_bottom">
+					<div class="sidebar-item ret_top">
+						<a href="javascript:;">
+							<i class="side_con"></i>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		<!-- 固定侧边栏 结束 -->
+
+
+</body>
+</html>
