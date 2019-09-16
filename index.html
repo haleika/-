@@ -1,0 +1,2416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>蘑菇街首页</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fonts/iconfont.css">
+	<script src="js/jquery-1.11.1.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/ajax.js"></script>
+</head>
+<body>
+	
+	<!-- 拉幕广告 开始-->
+	<div class="wrap_top_banner">
+		<div class="top_banner w">
+			<a href="#" class="big_topbanner">
+				<img src="img/big-topBanner.jpg" alt="七夕见证爱">	
+			</a>
+			<a href="#" class="small_topbanner">
+				<img src="img/small-topBanner.jpg" alt="七夕见证爱">
+			</a>
+			<a href="#" class="close_topbanner"></a>
+		</div>
+	</div>
+	<!-- 拉幕广告 结束-->
+	
+	<!-- 顶部导航搜索栏 开始  -->
+	<div class="wrap_topbar">
+		<div class="topbar clearfix">
+			<div class="top_nav w">
+				<div class="left_nav fl">
+					<a href="#">
+						<i class="iconfont icon-locationfill"></i>
+						<span>送货地址：</span>
+						<em>广州市</em>
+					</a>
+				</div>
+				<div class="right_nav fr">
+					<ul>
+						<li>
+							<span class="hb_hi">Hi,请</span>
+							<a href="login.html" class="hb_link">登录</a>
+							<a href="registered.html">注册</a>
+						</li>
+						<li>
+							<div class="hb_menu">
+								<a href="#" class="order">
+									我的订单
+								</a>
+							</div>
+						</li>
+						<li class="menu_li">
+							<div class="hb_menu">
+								<i class="iconfont icon-phone fl"></i>
+								<a href="#">充值中心</a>
+								<i class="hb_font iconfont icon-iconfontarrow01up"></i>
+							</div>
+							<div class="hb_menu_list list_phone">
+								<a href="#">话费充值</a>
+								<a href="#">流量充值</a>
+							</div>
+						</li>
+						<li class="menu_li">
+							<div class="hb_menu">
+								<a href="#">客户服务</a>
+								<i class="hb_font iconfont icon-iconfontarrow01up"></i>
+							</div>
+							<div class="hb_menu_list">
+								<a href="#">消费者服务</a>
+								<a href="#">商家服务</a>
+								<a href="#">规则中心</a>
+							</div>
+						</li>
+						<li class="menu_li">
+							<div class="hb_menu">
+								<a href="#">网站导航</a>
+								<i class="hb_font iconfont icon-iconfontarrow01up"></i>
+							</div>
+							<div class="hb_menu_list">
+								<a href="#">蘑菇首页</a>
+								<a href="#">蘑菇社区</a>
+								<a href="#">蘑菇小店</a>
+								<a href="#">招商通到</a>
+								<a href="#">企业采购</a>
+								<a href="#">蘑菇中心</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 顶部导航 -->
+		</div>
+			<div class="search w clearfix">
+				<div class="mg_logo fl">
+					<a href="#">
+						<img src="img/mg_logo.png" alt="">
+					</a>
+				</div>
+				<div class="search_box fl">
+					<div class="search_content">
+						<div class="selectbox">
+							<span>搜商品</span>
+							<ol>
+								<li>
+									<a href="#">
+										商品
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										店铺
+									</a>
+								</li>
+							</ol>
+						</div>
+						<div class="searchbar">
+							<input type="text" class="search_text" placeholder="请输入关键字">
+							<input type="button" class="search_btn" value="搜索">
+						</div>
+						<div class="search_history">
+							<div class="history">
+								<h3>历史记录</h3>
+							</div>
+						</div>
+					</div>
+					<div class="search_hotwords">
+							<a href="#">内裤</a>
+							<a href="#">卫衣</a>
+							<a href="#" class="zt_font">短袖T恤</a>
+							<a href="#" class="zt_font">小白鞋</a>
+							<a href="#">手机壳</a>
+							<a href="#" class="zt_font">口红</a>
+							<a href="#">眉笔</a>
+							<a href="#">袜子</a>
+							<a href="#" class="zt_font">牛仔裤</a>
+							<a href="#">时尚套装</a>
+					</div>
+				</div>
+				<!-- 搜索条 -->
+				<div class="shop_cart">
+					<div class="cart">
+						<a href="#">
+							<em class="iconfont icon-cart"></em>
+							<a href="chop_cart.html">我的购物车</a>
+						</a>
+					</div>
+				</div>
+				<!-- 购物车 -->
+			</div>		
+	</div>
+	<!-- 顶部导航搜索栏 结束  -->
+	
+	<div class="wrap_nav clearfix">
+		<div class="goods_nav w">
+			<div class="his_classify">
+				<a href="#">
+					全部商品分类
+				</a>
+			</div>
+			<div class="his_detailed">
+				<a href="#">省钱团购</a>
+				<a href="#">限时快抢</a>
+				<a href="#">美妆新品</a>
+				<a href="#">品质优选</a>
+				<a href="#">礼品DIV</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="main_banner clearfix">
+		<div class="banner_content w">
+			<div class="classify fl">
+				<ul>
+					<li>
+						<dl>
+							<dt>
+								<a href="#">上衣</a>
+							</dt>
+							<dd>
+								<span>
+									<a href="#">早秋</a>
+									<a href="#">T恤清仓</a>
+									<a href="#">衬衫</a>
+								</span>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>
+								<a href="#">裙子</a>
+							</dt>
+							<dd>
+								<span>
+									<a href="#">连衣裙</a>
+									<a href="#">半身裙</a>
+									<a href="#">美裙套装</a>
+								</span>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>
+								<a href="#">裤子</a>
+							</dt>
+							<dd>
+								<span>
+									<a href="#">牛仔裤</a>
+									<a href="#">休闲裤</a>
+									<a href="#">打底裤</a>
+								</span>
+							</dd>
+						</dl>
+					</li>
+						<li>
+							<dl>
+								<dt>
+									<a href="#">女鞋</a>
+								</dt>
+								<dd>
+									<span>
+										<a href="#">单鞋</a>
+										<a href="#">小白鞋</a>
+										<a href="#">打底裤</a>
+									</span>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<a href="#">男装</a>
+								</dt>
+								<dd>
+									<span>
+										<a href="#">潮T</a>
+										<a href="#">休闲裤</a>
+										<a href="#">休闲鞋</a>
+									</span>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<a href="#">内衣</a>
+								</dt>
+								<dd>
+									<span>
+										<a href="#">少女内衣</a>
+										<a href="#">睡衣</a>
+										<a href="#">内裤</a>
+									</span>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<a href="#">包包</a>
+								</dt>
+								<dd>
+									<span>
+										<a href="#">斜挎包</a>
+										<a href="#">旅行箱</a>
+										<a href="#">双肩包</a>
+									</span>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<a href="#">运动</a>
+								</dt>
+								<dd>
+									<span>
+										<a href="#">运动套装</a>
+										<a href="#">运动鞋</a>
+										<a href="#">运动卫衣</a>
+									</span>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<a href="#">美妆</a>
+								</dt>
+								<dd>
+									<span>
+										<a href="#">面膜</a>
+										<a href="#">护肤套装</a>
+										<a href="#">控油祛痘</a>
+									</span>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<a href="#">配饰</a>
+								</dt>
+								<dd>
+									<span>
+										<a href="#">耳环新品</a>
+										<a href="#">项链</a>
+										<a href="#">帽子</a>
+									</span>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<a href="#">家居</a>
+								</dt>
+								<dd>
+									<span>
+										<a href="#">家居鞋</a>
+										<a href="#">四件套</a>
+										<a href="#">小家具</a>
+									</span>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<a href="#">母婴</a>
+								</dt>
+								<dd>
+									<span>
+										<a href="#">孕妇装</a>
+										<a href="#">童装套装</a>
+										<a href="#">孕妇洗护</a>
+									</span>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<a href="#">食品</a>
+								</dt>
+								<dd>
+									<span>
+										<a href="#">休闲食品</a>
+										<a href="#">进口食品</a>
+										<a href="#">方便速食</a>
+									</span>
+								</dd>
+							</dl>
+						</li>
+						<li>
+							<dl>
+								<dt>
+									<a href="#">电器</a>
+								</dt>
+								<dd>
+									<span>
+										<a href="#">手机</a>
+										<a href="#">小家电</a>
+									</span>
+								</dd>
+							</dl>
+						</li>
+					</ul>
+				<div class="">
+					
+				</div>
+			</div>
+			<div class="max_banner fl">
+					<ul class="lb_banner">
+						<li>
+							<a href="Product_Detailed.html">
+								<img src="img/banner-01.png" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="Product_Detailed.html">
+								<img src="img/banner-02.png" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="Product_Detailed.html">
+								<img src="img/banner-03.png" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="Product_Detailed.html">
+								<img src="img/banner-04.png" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="Product_Detailed.html">
+								<img src="img/banner-05.png" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="Product_Detailed.html">
+								<img src="img/banner-06.png" alt="">
+							</a>
+						</li>
+					</ul>
+					<div class="lb_btn">
+						<a href="javascript:;" class="lb_btn_l"></a>
+						<a href="javascript:;" class="lb_btn_r"></a>
+					</div>
+					<div class="lb_num">
+						<a href="javascript:;" class="num_show">
+							<img src="img/lb_num.png" alt="">
+						</a>
+						<a href="javascript:;">
+							<img src="img/lb_num.png" alt="">
+						</a>
+						<a href="javascript:;">
+							<img src="img/lb_num.png" alt="">
+						</a>
+						<a href="javascript:;">
+							<img src="img/lb_num.png" alt="">
+						</a>
+						<a href="javascript:;">
+							<img src="img/lb_num.png" alt="">
+						</a>
+						<a href="javascript:;">
+							<img src="img/lb_num.png" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="user_info fl">
+					<div class="user_member">
+						<a href="#" class="avatar"></a>
+						<div class="welcome">
+							<span>菇凉好！</span>
+							<span>欢迎来逛蘑菇街~</span>
+						</div>
+						<a href="#" class="privileged">
+							<span>会员中心</span>
+						</a>
+					</div>
+					<div class="small_ad">
+						<a href="#">
+							<div class="small_ad_font">
+								<span>0.01抽好运</span>
+								<span>每天1分钱</span>
+							</div>
+							<div class="small_ad_img">
+								<img src="img/small_ad.png" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		
+		<!-- 限时快枪 开始 -->
+		<div class="wrap_discount clearfix">
+			<div class="ad_discount w">
+				<div class="flash_sale fl clearfix">
+					<div class="wrap_sale fl">
+						<div class="sale_con">
+							<div class="font_title">
+								限时快抢
+							</div>
+							<div class="sale_time">
+								<span>00</span>
+								:
+								<span>00</span>
+								:
+								<span>00</span>
+							</div>
+							<div class="sale_label">
+								<div class="label_text">快抢价</div>
+								<div class="label_pic">49.00</div>
+							</div>
+						</div>
+						<div class="small_adimg">
+							<img src="img/ad-01.png" alt="">
+						</div>
+					</div>
+					<div class="sale_goods fl">
+						<div class="goods_top">
+							<div class="ad_font fl">
+								<div class="font_title">一元快抢</div>
+								<div class="font_subtitle">百余好货1元抢</div>
+							</div>
+							<div class="big_adimg fr">
+								<img src="img/ad_02.png" alt="">
+							</div>
+						</div>
+						<div class="goods_btm">
+							<div class="ad_font fl">
+								<div class="font_title">女装快抢</div>
+								<div class="font_subtitle col_r">低至19.9元</div>
+							</div>
+							<div class="big_adimg fr">
+								<img src="img/ad_03.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="sale_tow flash_sale fl clearfix">
+					<div class="wrap_sale fl">
+						<div class="sale_con">
+							<div class="font_title">
+								团购好货
+							</div>
+							<div class="font_subtitle">参团购物 每天上新</div>
+						</div>
+						<div class="small_adimg">
+							<img src="img/ad_04.png" alt="">
+						</div>
+					</div>
+					<div class="sale_goods fl">
+						<div class="goods_top">
+							<div class="ad_font fl">
+								<div class="font_title">品牌特卖</div>
+								<div class="font_subtitle col_r">大牌美妆 低至5折</div>
+							</div>
+							<div class="big_adimg fr">
+								<img src="img/ad_05.png" alt="">
+							</div>
+						</div>
+						<div class="goods_btm">
+							<div class="ad_font fl">
+								<div class="font_title">U质团</div>
+								<div class="font_subtitle">优质团价28元起</div>
+							</div>
+							<div class="big_adimg fr">
+								<img src="img/ad_06.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="sale_three fl">
+					<div class="sale_con">
+						<div class="font_title">
+							甄选爆款
+						</div>
+						<div class="font_subtitle">热卖好货 价低质优</div>
+					</div>
+					<div class="small_adimg">
+						<img src="img/ad_07.png" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 限时快枪 结束 -->
+		
+		<div class="goods_carousel w clearfix">
+			<div class="carousel_title">
+				<ul>
+					<li><a href="javascript:;" class="hover_c">潮流女装</a></li>
+					<li><a href="javascript:;">蘑菇优选</a></li>
+					<li><a href="javascript:;">换季上新</a></li>
+					<li><a href="javascript:;">性感内衣</a></li>
+				</ul>
+			</div>
+			<div class="carousel_content clearfix">
+				<div class="tab_content">
+					<ul class="clearfix">
+						<li class="good_box clearfix">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_01.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_02.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_03.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_04.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_05.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_06.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_07.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_08.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_09.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_10.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+					</ul>
+					<div class="hot_btn">
+						<a href="javascript:;" class="hot_btn_l"></a>
+						<a href="javascript:;" class="hot_btn_r"></a>
+					</div>
+				</div>
+				<div class="tab_content">
+					<ul class="clearfix">
+						<li class="good_box clearfix">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_03.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_04.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_01.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_06.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_08.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_07.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_09.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_04.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_05.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_06.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+					</ul>
+					<div class="hot_btn">
+						<a href="javascript:;" class="hot_btn_l"></a>
+						<a href="javascript:;" class="hot_btn_r"></a>
+					</div>
+				</div>
+				<div class="tab_content">
+					<ul class="clearfix">
+						<li class="good_box clearfix">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_06.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_02.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_04.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_05.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_07.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_10.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_09.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_08.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_01.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_02.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+					</ul>
+					<div class="hot_btn">
+						<a href="javascript:;" class="hot_btn_l"></a>
+						<a href="javascript:;" class="hot_btn_r"></a>
+					</div>
+				</div>
+				<div class="tab_content">
+					<ul class="clearfix">
+						<li class="good_box clearfix">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_10.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_05.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_08.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_09.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_02.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_03.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_06.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_07.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_04.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+						<li class="good_box">
+							<a href="javascript:;">
+								<div class="good_hede">热门精选</div>
+								<div class="good_moddle">
+									<img src="img/good_07.jpg" alt="">
+									<div class="good_prc">
+										<p class="good_name">韩版初秋新款长袖条纹上衣+时尚蝴蝶结牛仔裤两件套套装</p>
+										<p class="good_price">
+											<em>¥</em>
+											<span>49</span>
+										</p>
+										<p class="price_high">
+											<em>¥</em>
+											<span>70</span>
+										</p>
+									</div>
+								</div>
+								<div class="layer">立即购买</div>
+							</a>
+						</li>
+					</ul>
+					<div class="hot_btn">
+						<a href="javascript:;" class="hot_btn_l"></a>
+						<a href="javascript:;" class="hot_btn_r"></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!-- 品牌特卖 开始 -->
+		<div class="main_brand w clearfix">
+			<div class="hot_brand">
+				<div class="brand_title clearfix">
+					<div class="sidebox"></div>
+					<div class="title_name">品牌特卖</div>
+					<div class="linkbox">
+						热门搜索：
+						<a href="#">甄选爆款 价低质优</a>|
+						<a href="#">返场大促，1分钱秒5折券</a>|
+						<a href="#">秋季尚新 59元两双</a>|
+						<a href="#">衬衫9.9元秒</a>|
+					</div>
+					<a href="#" class="more_all">
+						查看全部
+						<span>></span>
+					</a>
+				</div>
+				<div class="brand_content fl">
+					<div class="hot_search">
+						<a href="#">甄选爆款</a>
+						<a href="#">今日王牌</a>
+						<a href="#">下期预告</a>
+						<a href="#">新品单鞋</a>
+						<a href="#">小白鞋</a>
+						<a href="#">雪纺衫</a>
+					</div>
+					<div class="big_con">
+						<a href="#">
+							<div class="con_title">品牌精选</div>
+							<div class="con_sentence">潮牌尖货 初秋焕新</div>
+							<div class="con_img">
+								<img src="img/brand01.png" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="wrap_brand fl">
+					<a href="#">
+						<div class="top_title">秋衣焕新 月末返场</div>
+						<div class="sub_title">秒杀大额神券</div>
+						<div class="pic_box">
+							<img src="img/brand01.png" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 秋季尚新 </div>
+						<div class="sub_title"> 29.9元秒 </div>
+						<div class="pic_box">
+							<img src="img/brand02.png" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 大牌美妆水密码 </div>
+						<div class="sub_title"> 2折起～ </div>
+						<div class="pic_box">
+							<img src="img/brand03.jpg" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 甄选好货 </div>
+						<div class="sub_title"> 精品集合 低至2折 </div>
+						<div class="pic_box">
+							<img src="img/brand04.jpg" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 秋装新款 </div>
+						<div class="sub_title"> 低至5折 </div>
+						<div class="pic_box">
+							<img src="img/brand05.jpg" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 秋装上新 </div>
+						<div class="sub_title"> 4.8折起～ </div>
+						<div class="pic_box">
+							<img src="img/brand06.jpg" alt="">
+						</div>
+					</a>
+				</div>
+				<div class="brand_logo fl">
+					<div class="logo_items">
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo1.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo2.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo3.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo4.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo5.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo6.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo7.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo8.jpg" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="main_brand w clearfix">
+			<div class="hot_brand">
+				<div class="brand_title clearfix">
+					<div class="sidebox"></div>
+					<div class="title_name">女装</div>
+					<div class="linkbox">
+						热门搜索：
+						<a href="#">秋冬美裙</a>|
+						<a href="#">柔软针织</a>|
+						<a href="#">秋季尚新 59元两双</a>|
+						<a href="#">衬衫9.9元秒</a>|
+					</div>
+					<a href="#" class="more_all">
+						查看全部
+						<span>></span>
+					</a>
+				</div>
+				<div class="brand_content brand_con2 fl">
+					<div class="hot_search">
+						<a href="#">甄选爆款</a>
+						<a href="#">今日王牌</a>
+						<a href="#">下期预告</a>
+						<a href="#">新品单鞋</a>
+						<a href="#">小白鞋</a>
+						<a href="#">雪纺衫</a>
+					</div>
+					<div class="big_con">
+						<a href="#">
+							<div class="con_title">潮流女装</div>
+							<div class="con_sentence">初春新品抢鲜购</div>
+							<div class="con_img">
+								<img src="img/brand01.png" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="wrap_brand fl">
+					<a href="#">
+						<div class="top_title">秋衣焕新 月末返场</div>
+						<div class="sub_title">秒杀大额神券</div>
+						<div class="pic_box">
+							<img src="img/brand01.png" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 秋季尚新 </div>
+						<div class="sub_title"> 29.9元秒 </div>
+						<div class="pic_box">
+							<img src="img/brand02.png" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 大牌美妆水密码 </div>
+						<div class="sub_title"> 2折起～ </div>
+						<div class="pic_box">
+							<img src="img/brand03.jpg" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 甄选好货 </div>
+						<div class="sub_title"> 精品集合 低至2折 </div>
+						<div class="pic_box">
+							<img src="img/brand04.jpg" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 秋装新款 </div>
+						<div class="sub_title"> 低至5折 </div>
+						<div class="pic_box">
+							<img src="img/brand05.jpg" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 秋装上新 </div>
+						<div class="sub_title"> 4.8折起～ </div>
+						<div class="pic_box">
+							<img src="img/brand06.jpg" alt="">
+						</div>
+					</a>
+				</div>
+				<div class="brand_logo fl">
+					<div class="logo_items">
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo1.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo2.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo3.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo4.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo5.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo6.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo7.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo8.jpg" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="main_brand w clearfix">
+			<div class="hot_brand">
+				<div class="brand_title clearfix">
+					<div class="sidebox"></div>
+					<div class="title_name">品牌特卖</div>
+					<div class="linkbox">
+						热门搜索：
+						<a href="#">甄选爆款 价低质优</a>|
+						<a href="#">返场大促，1分钱秒5折券</a>|
+						<a href="#">秋季尚新 59元两双</a>|
+						<a href="#">衬衫9.9元秒</a>|
+					</div>
+					<a href="#" class="more_all">
+						查看全部
+						<span>></span>
+					</a>
+				</div>
+				<div class="brand_content brand_con3 fl">
+					<div class="hot_search">
+						<a href="#">甄选爆款</a>
+						<a href="#">今日王牌</a>
+						<a href="#">下期预告</a>
+						<a href="#">新品单鞋</a>
+						<a href="#">小白鞋</a>
+						<a href="#">雪纺衫</a>
+					</div>
+					<div class="big_con">
+						<a href="#">
+							<div class="con_title">品牌精选</div>
+							<div class="con_sentence">潮牌尖货 初秋焕新</div>
+							<div class="con_img">
+								<img src="img/brand01.png" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="wrap_brand fl">
+					<a href="#">
+						<div class="top_title">秋衣焕新 月末返场</div>
+						<div class="sub_title">秒杀大额神券</div>
+						<div class="pic_box">
+							<img src="img/brand01.png" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 秋季尚新 </div>
+						<div class="sub_title"> 29.9元秒 </div>
+						<div class="pic_box">
+							<img src="img/brand02.png" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 大牌美妆水密码 </div>
+						<div class="sub_title"> 2折起～ </div>
+						<div class="pic_box">
+							<img src="img/brand03.jpg" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 甄选好货 </div>
+						<div class="sub_title"> 精品集合 低至2折 </div>
+						<div class="pic_box">
+							<img src="img/brand04.jpg" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 秋装新款 </div>
+						<div class="sub_title"> 低至5折 </div>
+						<div class="pic_box">
+							<img src="img/brand05.jpg" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 秋装上新 </div>
+						<div class="sub_title"> 4.8折起～ </div>
+						<div class="pic_box">
+							<img src="img/brand06.jpg" alt="">
+						</div>
+					</a>
+				</div>
+				<div class="brand_logo fl">
+					<div class="logo_items">
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo1.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo2.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo3.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo4.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo5.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo6.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo7.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo8.jpg" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="main_brand w clearfix">
+			<div class="hot_brand">
+				<div class="brand_title clearfix">
+					<div class="sidebox"></div>
+					<div class="title_name">蘑菇优选</div>
+					<div class="linkbox">
+						热门搜索：
+						<a href="#">甄选爆款 价低质优</a>|
+						<a href="#">返场大促，1分钱秒5折券</a>|
+						<a href="#">秋季尚新 59元两双</a>|
+						<a href="#">衬衫9.9元秒</a>|
+					</div>
+					<a href="#" class="more_all">
+						查看全部
+						<span>></span>
+					</a>
+				</div>
+				<div class="brand_content brand_con4 fl">
+					<div class="hot_search">
+						<a href="#">甄选爆款</a>
+						<a href="#">今日王牌</a>
+						<a href="#">下期预告</a>
+						<a href="#">新品单鞋</a>
+						<a href="#">小白鞋</a>
+						<a href="#">雪纺衫</a>
+					</div>
+					<div class="big_con">
+						<a href="#">
+							<div class="con_title">蘑菇优选</div>
+							<div class="con_sentence">潮牌尖货 初秋焕新</div>
+							<div class="con_img">
+								<img src="img/brand01.png" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="wrap_brand fl">
+					<a href="#">
+						<div class="top_title">秋衣焕新 月末返场</div>
+						<div class="sub_title">秒杀大额神券</div>
+						<div class="pic_box">
+							<img src="img/brand01.png" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 秋季尚新 </div>
+						<div class="sub_title"> 29.9元秒 </div>
+						<div class="pic_box">
+							<img src="img/brand02.png" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 大牌美妆水密码 </div>
+						<div class="sub_title"> 2折起～ </div>
+						<div class="pic_box">
+							<img src="img/brand03.jpg" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 甄选好货 </div>
+						<div class="sub_title"> 精品集合 低至2折 </div>
+						<div class="pic_box">
+							<img src="img/brand04.jpg" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 秋装新款 </div>
+						<div class="sub_title"> 低至5折 </div>
+						<div class="pic_box">
+							<img src="img/brand05.jpg" alt="">
+						</div>
+					</a>
+					<a href="#">
+						<div class="top_title"> 秋装上新 </div>
+						<div class="sub_title"> 4.8折起～ </div>
+						<div class="pic_box">
+							<img src="img/brand06.jpg" alt="">
+						</div>
+					</a>
+				</div>
+				<div class="brand_logo fl">
+					<div class="logo_items">
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo1.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo2.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo3.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo4.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo5.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo6.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo7.jpg" alt="">
+							</div>
+						</a>
+						<a href="#">
+							<div class="items_icon">
+								<img src="img/brand_logo8.jpg" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<!-- 品牌特卖 结束 -->
+	
+		<!-- 甄选好货 开始 -->
+		<div class="goods_wrap w clearfix">
+			<div class="floor_tit">
+				<div class="tit_slide"></div>
+				<div class="tit_box">甄选好货</div>
+			</div>
+			<div class="floor_goods clearfix">
+				<div class="single_goods clearfix">
+					<div class="goods_mod">
+						<a href="#">
+							<div class="mod_img">
+								<img src="wf/wf_01.jpg" alt="">
+							</div>
+							<div class="mod_tit">
+								秋装新款 清新撞色条纹宽松套头长袖镂空套头百搭针织衫罩衫上衣
+							</div>
+							<div class="mod_info">
+								<span class="act_slogan">
+									品牌特卖
+								</span>
+								<span class="act_now_price">
+									￥44.73 
+								</span>
+								<span class="act_old_price">
+									立省:¥26
+								</span>
+							</div>
+							<div class="mod_btnbanner">
+								<p>加入购物车</p>
+							</div>	
+						</a>
+					</div>
+					<div class="goods_mod">
+						<a href="#">
+							<div class="mod_img">
+								<img src="wf/wf_02.jpg" alt="">
+							</div>
+							<div class="mod_tit">
+								两件套装 度假风花边雪纺外套防晒衫格子连衣裙裙子套装时尚套装
+							</div>
+							<div class="mod_info">
+								<span class="act_slogan">
+									品牌特卖
+								</span>
+								<span class="act_now_price">
+									￥84.00 
+								</span>
+								<span class="act_old_price">
+									立省:¥56
+								</span>
+							</div>
+							<div class="mod_btnbanner">
+								<p>加入购物车</p>
+							</div>	
+						</a>
+					</div>
+					<div class="goods_mod">
+						<a href="#">
+							<div class="mod_img">
+								<img src="wf/wf_03.jpg" alt="">
+							</div>
+							<div class="mod_tit">
+								2017秋季新款宽松上衣长袖T恤女装打底衫韩版外穿潮【预售】
+							</div>
+							<div class="mod_info">
+								<span class="act_slogan">
+									品牌特卖
+								</span>
+								<span class="act_now_price">
+									￥58.59
+								</span>
+								<span class="act_old_price">
+									立省:¥34
+								</span>
+							</div>
+							<div class="mod_btnbanner">
+								<p>加入购物车</p>
+							</div>	
+						</a>
+					</div>
+					<div class="goods_mod">
+						<a href="#">
+							<div class="mod_img">
+								<img src="wf/wf_04.jpg" alt="">
+							</div>
+							<div class="mod_tit">
+								连帽卫衣女宽松韩版学生长袖字母印花纯棉春装外套原宿bf上衣
+							</div>
+							<div class="mod_info">
+								<span class="act_slogan">
+									品牌特卖
+								</span>
+								<span class="act_now_price">
+									￥50.57
+								</span>
+								<span class="act_old_price">
+									立省:¥33
+								</span>
+							</div>
+							<div class="mod_btnbanner">
+								<p>加入购物车</p>
+							</div>	
+						</a>
+					</div>
+					<div class="goods_mod">
+						<a href="#">
+							<div class="mod_img">
+								<img src="wf/wf_05.jpg" alt="">
+							</div>
+							<div class="mod_tit">
+								两面可穿V领喇叭袖百搭镂空糖果色开叉套头透视针织衫长袖女毛衣
+							</div>
+							<div class="mod_info">
+								<span class="act_slogan">
+									品牌特卖
+								</span>
+								<span class="act_now_price">
+									￥53.43
+								</span>
+								<span class="act_old_price">
+									立省:¥25
+								</span>
+							</div>
+							<div class="mod_btnbanner">
+								<p>加入购物车</p>
+							</div>	
+						</a>
+					</div>
+					<div class="goods_mod">
+						<a href="#">
+							<div class="mod_img">
+								<img src="wf/wf_06.jpg" alt="">
+							</div>
+							<div class="mod_tit">
+								秋季新款韩版破口长袖条纹针织衫上衣女装宽松透视防晒罩衫
+							</div>
+							<div class="mod_info">
+								<span class="act_slogan">
+									品牌特卖
+								</span>
+								<span class="act_now_price">
+									￥65.52
+								</span>
+								<span class="act_old_price">
+									立省:¥38
+								</span>
+							</div>
+							<div class="mod_btnbanner">
+								<p>加入购物车</p>
+							</div>	
+						</a>
+					</div>
+					<div class="goods_mod">
+						<a href="#">
+							<div class="mod_img">
+								<img src="wf/wf_07.jpg" alt="">
+							</div>
+							<div class="mod_tit">
+								春季新品韩版袖子字母印花白色长袖t恤女宽松长款显瘦打底衫上衣
+							</div>
+							<div class="mod_info">
+								<span class="act_slogan">
+									品牌特卖
+								</span>
+								<span class="act_now_price">
+									￥39.50
+								</span>
+								<span class="act_old_price">
+									立省:¥39
+								</span>
+							</div>
+							<div class="mod_btnbanner">
+								<p>加入购物车</p>
+							</div>	
+						</a>
+					</div>
+					<div class="goods_mod">
+						<a href="#">
+							<div class="mod_img">
+								<img src="wf/wf_08.jpg" alt="">
+							</div>
+							<div class="mod_tit">
+								时尚套装秋装小清新纯色毛衣马甲系带收腰蕾丝裙两件套美裙套装女
+							</div>
+							<div class="mod_info">
+								<span class="act_slogan">
+									品牌特卖
+								</span>
+								<span class="act_now_price">
+									￥88.21
+								</span>
+								<span class="act_old_price">
+									立省:¥47
+								</span>
+							</div>
+							<div class="mod_btnbanner">
+								<p>加入购物车</p>
+							</div>	
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="goods_foot">
+				<div class="loading">
+					<div class="logding_fl"></div>
+					<div class="loading_fr">
+						<a href="javascript:;">加载更多</a>
+						<i class="iconfont icon-remind"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- 甄选好货 结束 -->
+
+
+	
+
+		<!-- footer页尾 开始 -->
+		<div class="footer">
+			<div class="wrap_foot w">
+				<div class="foot_credit">
+					<div class="foot_credit_mod">
+						<div class="mod_box">
+							<h4>- 新手帮助 -</h4>
+							<ul>
+								<li>
+									<a href="#">
+										常见问题
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										自助服务
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										联系客服
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										意见反馈
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="foot_credit_mod">
+						<div class="mod_box">
+							<h4>- 权益保障 -</h4>
+							<ul>
+								<li>
+									<a href="#">
+										全国包邮
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										7天无理由退货
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										退货运费补贴
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										限时发货
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="foot_credit_mod">
+						<div class="mod_box">
+							<h4>- 支付方式 -</h4>
+							<ul>
+								<li>
+									<a href="#">
+										微信支付
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										支付宝
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										白付美支付
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										意见反馈
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="foot_credit_mod">
+						<div class="mod_box">
+							<h4>- 移动客户端下载 -</h4>
+							<ul>
+								<li>
+									<a href="#">
+										蘑菇街
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										美丽说
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										uni引力
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										意见反馈
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="foot_otherlink clearfix">
+						<ul>
+							<li><a href="#">美丽说</a>|</li>
+							<li><a href="#">蘑菇街游戏</a>|</li>
+							<li><a href="#">淘粉吧</a>|</li>
+							<li><a href="#">穿衣搭配</a>|</li>
+							<li><a href="#">秋季女装新款</a>|</li>
+							<li><a href="#">秋季连衣裙长袖</a>|</li>
+							<li><a href="#">秋季孕妇装</a>|</li>
+							<li><a href="#">QQ钱包</a>|</li>
+							<li><a href="#">时尚品牌网</a>|</li>
+							<li><a href="#">装修</a>|</li>
+							<li><a href="#">背带裤搭配</a>|</li>
+							<li><a href="#">衣联网</a>|</li>
+							<li><a href="#">播视网视频</a>|</li>
+							<li><a href="#">慧聪网</a>|</li>
+							<li><a href="#">衬衫搭配</a>|</li>
+							<li><a href="#">牛仔外套搭配图片</a>|</li>
+							<li><a href="#">冬装时尚搭配</a>|</li>
+							<li><a href="#">针织衫搭配</a>|</li>
+							<li><a href="#">牛仔衣搭配</a>|</li>
+							<li><a href="#">风衣搭配</a>|</li>
+							<li><a href="#">补水面膜排行榜</a>|</li>
+							<li><a href="#">爱蘑菇街</a>|</li>
+						</ul>
+				</div>
+				<div class="foot_mginfo">
+					<ul>
+						<li><a href="#">关于我们</a></li>
+						<li><a href="#">招聘信息</a></li>
+						<li><a href="#">联系我们</a></li>
+						<li><a href="#">商家入驻</a></li>
+						<li><a href="#">商家后台</a></li>
+						<li><a href="#">蘑菇商学院</a></li>
+						<li><a href="#">商家社区</a></li>
+					</ul>
+					<span>©2017 Mogujie.com 杭州卷瓜网络有限公司</span>
+				</div>
+				<div class="foot_copy">
+					<p>
+						<span>营业执照注册号：</span>
+						<a href="#">330106000129004</a>
+						<b> | </b>
+						<span>网络文化经营许可证：</span>
+						<a href="#">浙网文（2016）0349-219号</a>
+						<b> | </b>
+						<span>增值电信业务经营许可证：</span>
+						<a href="#">浙B2-20110349</a>
+						<b> | </b>
+						<a href="#">安全责任书</a>
+						<b> | </b>
+						<a href="#">浙公网安备 33010602002329号</a>
+						<b> | </b>
+
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- footer页尾 结束 -->
+
+
+		<!-- 固定侧边栏 开始 -->
+			<div class="wrap_sidebar">
+				<div class="sidebar_height"></div>
+				<div class="sidebar-item my_cart">
+					<a href="chop_cart.html">
+						<i class="side_con"></i>
+						<span class="side_txt">购物车</span>
+					</a>
+				</div>
+				<div class="sidebar-item my_coupon">
+					<a href="#">
+						<i class="side_con"></i>
+						<span class="side_txt">优惠券</span>
+					</a>
+				</div>
+				<div class="sidebar-item my_wallrt">
+					<a href="#">
+						<i class="side_con"></i>
+						<span class="side_txt">钱包</span>
+					</a>
+				</div>
+				<div class="sidebar-item my_browserlog">
+					<a href="#">
+						<i class="side_con"></i>
+						<span class="side_txt">足迹</span>
+					</a>
+				</div>
+				<div class="side_bottom">
+					<div class="sidebar-item ret_top">
+						<a href="javascript:;">
+							<i class="side_con"></i>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		<!-- 固定侧边栏 结束 -->
+
+		<!-- 手机端导航 -->
+		<div class="phone_nav">
+			<div class="wrap_phone_nav">
+				<a href="index.html" class="bottom-nav-item fl">
+					<div class="img-wrap">
+						<img src="phone/home.png" alt="">
+					</div>
+					<div class="title">
+						首页
+					</div>
+				</a>
+				<a href="#" class="bottom-nav-item fl">
+					<div class="img-wrap">
+						<img src="phone/item1.png" alt="">
+					</div>
+					<div class="title">
+						分类
+					</div>
+				</a>
+				<a href="#" class="bottom-nav-item fl">
+					<div class="img-wrap">
+						<img src="phone/item2.png" alt="">
+					</div>
+					<div class="title">
+						购物车
+					</div>
+				</a>
+				<a href="#" class="bottom-nav-item fl">
+					<div class="img-wrap">
+						<img src="phone/item3.png" alt="">
+					</div>
+					<div class="title">
+						我的
+					</div>
+				</a>
+			</div>
+		</div>
+
+</body>
+</html>
+<script src="js/template-native.js"></script>
+<script src="js/templet.js"></script>
+
+<script type="text/template" id='template'>
+	<% for(var i=0;i<items.length;i++){%>
+	    <div class="goods_mod">
+			<a href="#">
+				<div class="mod_img">
+					<img src="<%=items[i].path%>" alt="">
+				</div>
+				<div class="mod_tit">
+					<%=items[i].text%>
+				</div>
+				<div class="mod_info">
+					<span class="act_slogan">
+						品牌特卖
+					</span>
+					<span class="act_now_price">
+						<%=items[i].pic%> 
+					</span>
+					<span class="act_old_price">
+						<%=items[i].save%>
+					</span>
+				</div>
+				<div class="mod_btnbanner">
+					<p>加入购物车</p>
+				</div>	
+			</a>
+		</div>
+	<%}%>
+</script>
